@@ -1,5 +1,10 @@
+import { HTMLAttributes } from "react";
 import { Wrapper } from "./styles";
 
-export function Button({ ...props }) {
-  return <Wrapper {...props} />;
+interface IButton extends HTMLAttributes<HTMLButtonElement> {
+  variant?: "primary" | "secondary";
+}
+
+export function Button({ variant = "primary", ...props }: IButton) {
+  return <Wrapper variant={variant} {...props} />;
 }
