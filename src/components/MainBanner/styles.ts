@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
 export const GroupDotsContainer = styled.div`
   position: absolute;
   top: 0;
-  left: 0px;
+  left: -50px;
 `;
 
 export const Container = styled.div`
