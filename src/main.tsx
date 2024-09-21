@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
+    overflow-x: hidden;
     font-family: "Munish", sans-serif;
     font-weight: 400;
     font-style: normal;
