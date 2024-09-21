@@ -1,9 +1,11 @@
-import { Header } from "../../Header";
+import { Header } from "../../components/Header";
+import { MainBanner } from "../../components/MainBanner";
 
 function App() {
   return (
     <>
       <Header />
+      <MainBanner />
     </>
   );
 }

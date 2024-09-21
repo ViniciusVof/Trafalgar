@@ -1,7 +1,7 @@
 import { ReactSVG } from "react-svg";
 import { Container, Menu, MenuItem, Wrapper } from "./styles";
 
-import Logo from "../assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 
 export function Header() {
   return (

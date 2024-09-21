@@ -15,6 +15,9 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-style: normal;
   }
+  h1 {
+    font-size: 48px;
+  }
 `;
 
 createRoot(document.getElementById("root")!).render(
