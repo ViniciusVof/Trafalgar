@@ -8,6 +8,7 @@ import Illustration3IMG from "../../assets/illustration3.svg";
 
 import { Button } from "../../components/Button";
 import { Footer } from "../../components/Footer";
+import { LatestArticles } from "../../components/LatestArticles";
 function App() {
   return (
     <>
@@ -29,6 +30,8 @@ function App() {
         leftIllustration={Illustration3IMG}
         showGroupDotsBottom
       />
+
+      <LatestArticles />
 
       <Footer />
     </>
