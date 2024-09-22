@@ -7,6 +7,7 @@ import Illustration2IMG from "../../assets/illustration2.svg";
 import Illustration3IMG from "../../assets/illustration3.svg";
 
 import { Button } from "../../components/Button";
+import { Footer } from "../../components/Footer";
 function App() {
   return (
     <>
@@ -28,6 +29,8 @@ function App() {
         leftIllustration={Illustration3IMG}
         showGroupDotsBottom
       />
+
+      <Footer />
     </>
   );
 }

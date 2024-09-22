@@ -5,7 +5,7 @@ export const theme = {
   primary: "#458FF6",
   white: "#FFF",
   title: "#000",
-  background: "linear-gradient(45deg, #67C3F3, #5A98F2)",
+  background: "linear-gradient(180deg, #67C3F3, #5A98F2)",
   fontWeight: {
     light: "300",
     regular: "400",
