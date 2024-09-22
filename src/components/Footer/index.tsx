@@ -1,7 +1,6 @@
 import {
   Container,
   GroupDotsLeft,
-  GroupDotsLeftWrapper,
   GroupDotsRight,
   Information,
   Wrapper,
